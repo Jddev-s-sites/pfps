@@ -1,0 +1,52 @@
+body {
+    background-color: #adc2eb;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    float: inline-start;
+    text-align: center;
+
+    margin-top: 200px;
+
+}
+.contact {
+    margin: 100px;
+}
+
+.contact a {
+    color: #1C66CD;
+}
+
+.name {
+    color: #1C66CD;
+    text-decoration: none;
+}
+
+.container p a {
+    color: #1C66CD;
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+    overflow: hidden;
+    font-size: 12px;
+    position: relative;
+    margin-top: 15rem;
+}
+
+@media screen and (max-width:414px) {
+
+}
+
